@@ -36,7 +36,9 @@ function draw() {
 }
 
 function keyPressed()   {
-    if (keyCode === 32) {
-        time1 = b.jump();
-    }
+    time1 = b.jump();
+}
+
+function mousePressed() {
+    time1 = b.jump();
 }
